@@ -1,17 +1,26 @@
-@font-face {
-    font-family: 'GalanoGrotesqueAlt';
-    src: url('GalanoGrotesqueAlt-Light.eot');
-    src: local('☞Galano Grotesque Alt Light'), local('GalanoGrotesqueAlt-Light'),
-        url('GalanoGrotesqueAlt-Light.eot?#iefix') format('embedded-opentype'),
-        url('GalanoGrotesqueAlt-Light.woff2') format('woff2'),
-        url('GalanoGrotesqueAlt-Light.woff') format('woff'),
-        url('GalanoGrotesqueAlt-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-.footer{
-    width: auto;
-    height: 500px;
-    background-color: #41005A;
-}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 312px;
+    overflow: hidden;
+    background-color: #ffe815;
+    border-radius: 20px;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    background-color: #41005a;
+  }
