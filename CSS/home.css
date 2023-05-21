@@ -1,15 +1,27 @@
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-ExtraLight';
+    src: url('path/to/GalanoGrotesqueAlt-ExtraLight.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'GalanoGrotesqueAlt-ExtraLight', sans-serif;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 312px;
     overflow: hidden;
     background-color: #ffe815;
-    border-radius: 20px;
+    height: 150px;
+    font-size: 22px;
   }
   
   nav li {
     float: left;
+    padding-top: 49px;
+    padding-left: 40px;
   }
   
   nav li a {
@@ -18,9 +30,9 @@ nav ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
   }
   
   nav li a:hover {
-    background-color: #41005a;
+    color: #41005a;
   }
