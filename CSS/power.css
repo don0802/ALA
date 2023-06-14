@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-ExtraLight';
+    src: url('path/to/GalanoGrotesqueAlt-ExtraLight.ttf') format('truetype');
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'GalanoGrotesqueAlt-ExtraLight', sans-serif;
+  }
+  html{
+    background-color: #ffe815;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #62C6CD;
+    height: 150px;
+    font-size: 22px;
+  }
+  
+  nav li {
+    float: left;
+    padding-top: 49px;
+    padding-left: 60px;
+  }
+  
+  nav li a {
+    display: block;
+    color: #41005a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    color: #ffffff;
+  }
+  
