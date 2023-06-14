@@ -36,3 +36,58 @@ nav li a {
 nav li a:hover {
   color: #ffffff;
 }
+
+main > section {
+  display: flex;
+  gap: 20px;
+}
+
+.tekst1 {
+  display: grid;
+  width: 500px;
+}
+
+
+.background {
+  position: relative;
+}
+
+
+
+main > section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #ffe815;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
